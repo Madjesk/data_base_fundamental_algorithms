@@ -1,0 +1,21 @@
+{
+    "configs":
+    [
+        {
+            "target": "log/test.txt",
+            "severity": "TRACE"
+        },
+        {
+            "target": "log/test1.txt",
+            "severity": "INFORMATION"
+        },
+        {
+            "target": "log/test.txt",
+            "severity": "DEBUG"
+        },
+        {
+            "target": "console",
+            "severity": "TRACE"
+        }
+    ]
+}
