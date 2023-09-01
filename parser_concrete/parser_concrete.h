@@ -1902,47 +1902,47 @@ public:
 
                             if (name_argument == "TYPE")
                             {
-                                update_item->second[current_time].emplace_back("type", value_argument);
+                                update_item->second[current_time].emplace_back("TYPE", value_argument);
                             }
                             else if (name_argument == "FORMAT")
                             {
-                                update_item->second[current_time].emplace_back("format", value_argument);
+                                update_item->second[current_time].emplace_back("FORMAT", value_argument);
                             }
                             else if (name_argument == "DESCRIPTION")
                             {
-                                update_item->second[current_time].emplace_back("description", value_argument);
+                                update_item->second[current_time].emplace_back("DESCRIPTION", value_argument);
                             }
                             else if (name_argument == "LINK")
                             {
-                                update_item->second[current_time].emplace_back("link", value_argument);
+                                update_item->second[current_time].emplace_back("LINK", value_argument);
                             }
                             else if (name_argument == "SURNAME")
                             {
-                                update_item->second[current_time].emplace_back("surname", value_argument);
+                                update_item->second[current_time].emplace_back("SURNAME", value_argument);
                             }
                             else if (name_argument == "NAME")
                             {
-                                update_item->second[current_time].emplace_back("name", value_argument);
+                                update_item->second[current_time].emplace_back("NAME", value_argument);
                             }
                             else if (name_argument == "PATRONYMIC")
                             {
-                                update_item->second[current_time].emplace_back("patronymic", value_argument);
+                                update_item->second[current_time].emplace_back("PATRONYMIC", value_argument);
                             }
                             else if (name_argument == "DATE")
                             {
-                                update_item->second[current_time].emplace_back("date", value_argument);
+                                update_item->second[current_time].emplace_back("DATE", value_argument);
                             }
                             else if (name_argument == "START_TIME")
                             {
-                                update_item->second[current_time].emplace_back("start_time", value_argument);
+                                update_item->second[current_time].emplace_back("START_TIME", value_argument);
                             }
                             else if (name_argument == "DURATION")
                             {
-                                update_item->second[current_time].emplace_back("duration", value_argument);
+                                update_item->second[current_time].emplace_back("DURATION", value_argument);
                             }
                             else if (name_argument == "MEMBERS")
                             {
-                                update_item->second[current_time].emplace_back("members", value_argument);
+                                update_item->second[current_time].emplace_back("MEMBERS", value_argument);
                             }
                             else
                             {
